@@ -15,7 +15,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
     binary_tree_t *montys_newnode = malloc(sizeof(binary_tree_t));
 
     if (montys_newnode == NULL)
-            return;
+            return (NULL);
     montys_newnode->parent = parent;
     montys_newnode->n = value;
     montys_newnode->right = NULL;
